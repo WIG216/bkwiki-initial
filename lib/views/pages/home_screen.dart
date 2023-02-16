@@ -53,27 +53,13 @@ class _HomeScreenState extends State<HomeScreen> {
             actions: [
               AppBarIcons(
                 function: () {
-                  Navigator.push(
-                    context,
-                    PageTransition(
-                      type: PageTransitionType.fade,
-                      child: const UsersScreen(),
-                    ),
-                  );
+                 
                 },
                 icon: IconlyBold.notification,
               ),
               AppBarIcons(
                 function: () {
-                  Navigator.push(
-                    context,
-                    PageTransition(
-                      type: PageTransitionType.fade,
-                      child: const UsersScreen(),
-                    ),
-                  );
-                },
-                icon: IconlyBold.activity,
+                  
               ),
             ],
           ),
